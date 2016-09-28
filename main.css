@@ -1,0 +1,32 @@
+body {
+	background-color:black;
+	color:white;
+	
+	/*
+	animation is not smooth right now
+	-webkit-animation: blink 4s infinite;
+	*/
+
+}
+
+ul {
+	list-style-type:none;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    40% { opacity:0.3; }
+    50% { opacity:0 ; }
+    60% { opacity:0.3; }
+    100% { opacity:1; }
+}
